@@ -1,0 +1,60 @@
+# Social Yearbook Website
+
+## Description
+
+The Social Yearbook website is a platform where users can preserve and share their lifetime memories in a centralized and organized manner. It offers a user-friendly interface for exploring a timeline of personal moments, adding new memories, and contacting the administrators for inquiries or feedback.
+
+## Technical Specifications
+
+### Pages
+
+1. **Home (index.html)**
+   - Displays a welcoming message and introduces users to the concept of the website.
+   - Features a timeline section showcasing various moments with dates and descriptions.
+   - Provides a call-to-action button to encourage users to add their moments.
+
+2. **Add Moment (add-moment.html)**
+   - Includes two forms:
+     - Form 1: Add Basic Details (Title, Date, Description)
+     - Form 2: Upload Photo
+   - Displays a table with moments added by users, including titles, dates, and descriptions.
+
+3. **Contact (contact.html)**
+   - Presents a contact form with fields for Full Name, Email, Category (dropdown), and Message.
+   - Allows users to choose a category for their inquiry, such as General Inquiry, Feedback, or Technical Support.
+
+### HTML Requirements
+
+- Three pages: Home, Add Moment, and Contact.
+- Consistent grid system between pages.
+- At least ten different HTML tags used.
+- At least one table on the Add Moment page.
+- At least two forms on the Add Moment and Contact pages.
+- At least one dropdown menu on the Contact page.
+- Various content types: Text, Images, GIFs.
+
+### CSS Requirements
+
+- Make use of inline, internal, and external styling.
+- Use five different CSS selectors.
+- Use colors that complement each other.
+- Use Flexbox and/or the Bootstrap Grid.
+- Use at least two CSS animations.
+
+### JS Requirements
+
+- Cache at least one element using selectElementById.
+- Cache at least one element using querySelector or querySelectorAll. 
+- Use the parent-child-sibling relationship to navigate between elements at least once (firstChild, lastChild, parentNode, nextElementSibling, etc.).
+- Iterate over a collection of elements to accomplish some task.
+- Create at least one element using createElement.
+- Use appendChild and/or prepend to add new elements to the DOM.
+- Use the DocumentFragment interface or HTML templating with the cloneNode method to create templated content.
+- Modify the HTML or text content of at least one element in response to user interaction using innerHTML, innerText, or textContent. 
+- Modify the style and/or CSS classes of an element in response to user interactions using the style or classList properties.
+- Modify at least one attribute of an element in response to user interaction.
+- Register at least two different event listeners and create the associated event handler functions.
+- Use at least two Browser Object Model (BOM) properties or methods.
+- Include at least one form and/or input with HTML attribute validation.
+- Include at least one form and/or input with DOM event-based validation. (This can be the same form or input as the one above, but should include event-based validation in addition to the HTML attribute validation.)
+- Ensure that the program runs without errors (comment out things that do not work, and explain your blockers - you can still receive partial credit).
